@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width initial-scale=1">
+	<title>My First page</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	 <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+	 <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+	<script src="https://kit.fontawesome.com/b36189ddd5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	
+	
+		<p> WEB DEVELOPMENT </p>
+	
+	<aside class="nav-links" >HOME </aside>
+	<aside class="  nav-links">ABOUTUS </aside>
+	<aside class=" nav-links">CONTANT </aside>
+	<aside class=" nav-links">GALLERY</aside>
+	<h1> I am a 
+	 <div>
+		  <span>
+			Developer<br>
+			Designer<br>
+			programmer<br>
+			blogger<br>
+			writer<br>
+		  </span>
+	   </div>
+</h1>
+   
+	
+
+	<style type="text/css">
+		h1{
+ 		text-transform: uppercase;
+ 		color: #838383;
+ 		position: absolute;
+ 		font-size: 30px;
+ 		top:60%; left: 40%;
+        transform:translate(-50%,-50%);
+ 		
+ 		font-family: verdana;
+ 	}
+ 	div{
+ 		display: inline-block;
+ 		height: 1em;
+ 		overflow: none;
+ 		color: red;
+ 	}
+ 	span{
+ 		display: inline-block;
+ 		animation: rotate 3s infinite;
+
+ 	}
+ 	@keyframes rotate{
+ 		0%{transform: translateY(30px);}
+ 		15%%{transform: translateY(-40px);}
+ 		25%{transform: translateY(70px);}
+ 		50%{transform: translateY(-80px);}
+ 		75%{transform: translateY(-110px);}
+ 		100%{transform: translateY(0px);}
+ 		
+ 		
+ 		
+ 	}
+
+
+ 	
+ 
+		body{
+			
+			background-color: #111;
+			display: flex;
+			justify-content: center;
+			margin-top: 5%;
+			margin-left: 10%;
+
+		}
+		
+		
+		.nav-links{
+			position:relative;
+			text-decoration: none;
+			color: white;
+			font-size: 20px;
+			font-family: verdona;
+			letter-spacing: 3px;
+			padding: 15px 30px;
+			margin: 15px 30px;
+			transition: color 0.3s ease-in-out;
+
+		}
+		.nav-links::before{
+			z-index: -1;
+			content: "";
+			position: absolute;
+			top: 0; bottom: 0; 
+			left: 0; 
+			width: 0;
+			background-image: linear-gradient(to right,#a123f1,#c2b393);
+			transition: width 0.3s ease-in-out;
+            font-family: serif;
+		    margin: 15px 30px;
+
+		}
+		.nav-links:hover::before{
+			width: 100%;
+			height: 100%;
+
+		}
+		.nav-links:hover{
+			color: white;
+		}
+		
+		p {
+			color: white;
+		}
+
+/**<label for="indoor"> 
+  <input id="indoor" type="radio" name="indoor-outdoor">Indoor 
+</label>
+<label for="caring"> 
+  <input id="caring" type="checkbox" name="personality">Caring 
+</label>
+
+
+
+		
+
+	</style>
+</body>
+</html>

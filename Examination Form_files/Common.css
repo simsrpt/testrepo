@@ -1,0 +1,292 @@
+﻿/* ============== For Attendance Tracker  ===================== */
+@media screen and (max-device-width: 480px) {
+    .Main {
+		width: 480px;
+		font-size: 150%; 
+		}
+}
+@media only screen and (min-width: 768px) {
+    .Main {
+		width: 300px;
+		font-size:14px;
+		}
+}
+/* ============== For Attendance Tracker  ===================== */
+
+body{
+
+	padding:0px;
+	margin:0px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	}
+
+#header{
+	width:100%;
+	float:left;
+	height:141px;
+	}
+
+.main-content{
+	width:980px;
+	margin:0 auto;
+	}
+
+.header-main{
+	width:980px;
+	float:left;
+	}
+
+.top-bar{
+	height:30px;
+	line-height:30px;
+	float:left;
+	text-align:right;
+	font-size:12px;
+	width:980px;
+	}
+
+.top-bar a{	
+	color:#f9ffff;
+	text-decoration:none;
+	}
+
+.top-bar a:hover{	
+	color:#f9ffff;
+	text-decoration:underline;
+	}
+
+.main-bar{
+	float:left;
+	width:980px;
+	height:111px;
+	}
+
+.logo{
+	float:left;
+	margin:5px 0 0 12px;
+	}
+
+.Page-Title{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:18px;
+	float:left;
+	letter-spacing:2px;
+	font-weight:bold;
+	margin-top:30px;
+	text-align:left;
+	width:100%;
+	padding-bottom:15px;
+	color:#012d56;
+	}
+	
+textarea {
+   font-family: inherit;
+   font-size: 12px;
+}
+
+/*======================HEADER END=============================*/	
+
+#wrapper{
+	width:100%;
+	float:left;
+	width:100%;
+	min-height:500px;
+	padding-bottom:20px;
+	}
+
+#StudentInformation
+{
+	padding-bottom:20px;
+	}
+
+#CollegeInformation
+{
+	padding-bottom:20px;
+	width:100%;
+	float:left;
+	}
+
+#Footer
+{
+	position:fixed;
+	text-align:right;
+	left:0;
+	right:0;
+	bottom:0;
+	height:17px;
+	z-index:23;
+	color:#666666;
+	font-family:arial;
+	font-size:11px;
+	background-color:White;
+}
+
+.wrapper-man{
+	width:980px;
+	float:left;
+	}
+
+.Submit
+{
+	padding-top:20px;
+	padding-bottom:20px;
+	height:26px;
+}
+
+.Error
+{
+	color:Red;
+	width:200px;
+	text-align:center;
+}
+
+.Logout
+{
+	font-size:smaller;
+}
+
+.PreviousDetailsHeading
+{
+	text-align:center;
+	font-weight:bold;
+	font-size:larger;
+	border-bottom:solid 1px gray;
+	border-top:solid 1px gray;
+	margin-bottom:5px;
+}
+
+.PreviousDetailsSubHeading
+{
+	text-align:center;
+	font-weight:bold;
+	font-size:small;
+	border-bottom:solid 1px gray;
+	border-top:solid 1px gray;
+	margin-bottom:5px;
+}
+
+.PreviousDetailsMainFieldSet {
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	border: 2px solid gray;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	margin-bottom: 10px;
+}
+
+.PreviousDetailsMainLegend 
+{
+	font-weight: bold;
+	font-size: larger;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.PreviousDetailsSubFieldSet 
+{
+	padding-left: 20px;
+	border: 1px solid gray;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	margin-bottom:10px;
+}
+
+.PreviousDetailsSubLegend 
+{
+	font-weight: bold;
+	font-size: small;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.PreviousClass
+{
+	padding-bottom:10px;
+	border:solid 1px Gray;
+}
+
+.Logout
+{
+	font-size:smaller;
+}
+
+/*======================GRIDVIEW START=============================*/
+.GridView
+{
+	color:#333333;
+	Font-Size:Small;
+	margin-top:20px;
+}
+
+.GridViewHeader
+{
+	background-color:#5D7B9D;
+	font-weight:Bold;
+	color:White;
+}
+
+.GridViewFooter
+{
+	background-color:#5D7B9D;
+	font-weight:bold;
+	color:White;
+}
+
+.GridViewRow
+{
+	background-color:#F7F6F3;
+	color:#333333;
+	height:24px;
+}
+
+.GridViewAltRow
+{
+	background-color:White;
+	color:#284775;
+	height:24px;
+}
+
+.GridViewEditRow
+{
+	background-color:#999999;
+}
+
+.GridViewSelectedRow
+{
+	background-color:#E2DED6;
+	font-weight:bold;
+	Color:#333333;
+}
+
+.GridViewPagerStyle
+{
+	background-color:#284775;
+	color:White;
+}
+
+/*======================GRIDVIEW END=============================*/
+
+/*======================DOTTED LINE WITH SCISSOR=============================*/
+
+/*#scissors {
+    height: 23px; 
+    width: 100%;
+    margin: auto auto;
+    background-image: url('../images/Scissor.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    position: relative;
+}
+
+    #scissors div {
+        position: relative;
+        top: 50%;
+        border-top: 3px dashed black;
+        margin-top: -3px;
+    }*/
+
+/*======================DOTTED LINE WITH SCISSOR END=============================*/

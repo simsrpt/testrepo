@@ -1,0 +1,30 @@
+.container{
+ 		width: 60%;
+ 		height: 70%;
+ 		border: 5px solid black;
+ 		border-image: linear-gradient(57deg,#833ab4,#fd1d1d,#fcb045);
+ 		border-image-slice: 1;
+ 		position: absolute;
+ 		top: 40%; left: 50%;
+ 		border-radius: 40%;
+ 		/*right: 50%;bottom: 50%;*/
+ 		transform:translate(-50%,-50%);
+ 		cursor: pointer;
+ 		text-align: center;
+ 		font-family: 'Pacifico', cursive;
+}
+ 
+ 	.newbtn{
+ 		box-shadow: 10px 15px;
+ 		margin-top: 40%;
+ 		left: 45%;
+        font-family: serif;
+ 	}
+
+ 	#quotedisplay{
+ 		text-align: center;
+ 		margin-top: 12%;
+ 	}
+
+ 	
+ 	

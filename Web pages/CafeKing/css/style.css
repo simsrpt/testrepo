@@ -1,0 +1,12 @@
+.nav-wrapper{
+	background-color: #6d4c41;
+	
+}
+.slider .indicators .indicator-item.active{
+	background-color: #6d4c41;
+}
+
+
+.brand-logo{
+font-family: 'Pacifico', cursive;
+}

@@ -1,0 +1,7 @@
+﻿.Red .top-bar{
+	color:Red;
+	}
+
+.Red #header{
+	background:url(../images/header-bg-red.jpg) repeat-x;
+	}
